@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f0f4f8;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='3' cy='3' r='1.5' fill='%23cbd5e1'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 24px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #1e293b;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.checklist label {
+    cursor: pointer;
+    color: #334155;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#btn-js {
+    background-color: #eab308;
+    color: #1e293b;
+}
+
+#btn-jq{
+    background-color: #0284c7;
+}
+
+.resultado{
+    padding: 12px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    color: #0f172a;
+    font-size: 0.95rem;
+}

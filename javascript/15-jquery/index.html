@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist via JQuery</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Checklist de Tarefas</h1>
+
+        <div class="class checklist">
+            <label><input type="checkbox" name="tarefa" value="Configurar ambiente">Configurar ambiente</label>
+            <label><input type="checkbox" name="tarefa" value="Criar estrutura HTML">Criar estrutura HTML</label>
+            <label><input type="checkbox" name="tarefa" value="Estilizar com CSS">Estilizar com CSS</label>
+            <label><input type="checkbox" name="tarefa" value="Implementar lógica CSS">Implementar lógica CSS</label>
+            <label><input type="checkbox" name="tarefa" value="Testar com JQuery">Testar com JQuery</label>
+        </div>
+
+        <div class="botoes">
+            <button type="button" id="btn-js">Executar com JavaScript</button>
+            <button type="button" id="btn-jq">Executar com JQuery</button>
+        </div>
+
+        <div id="resultado" class="resultado">
+            <em>Selecione os itens acima e clique em um dos botões.</em>  <!-- <em> abreviação de emphasis - Ênfase -->
+        </div>
+    </main>
+
+    <!-- Bibilioteca JQuery via CDM -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- arquivo externo JS / Jquery -->
+     <script src="./js/script.js"></script>
+</body>
+</html>

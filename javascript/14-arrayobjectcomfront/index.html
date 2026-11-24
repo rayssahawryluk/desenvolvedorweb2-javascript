@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays e objetos em JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>JavaScript Básico</h1>
+        <button  id="menu-btn" class="hamburger">
+            ☰
+        </button>
+
+        <nav id="menu">
+            <a href="#" onclick="mostrarTela('array')">Array</a>
+            <a href="#" onclick="mostrarTela('objeto')">Objeto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Tela array -->
+        <section id="array" class="tela ativa">
+            <h2>Trabalhando com Arrays</h2>
+
+            <p>Arrays armazena vários valores em uma única variável.</p>
+
+            <button onclick="executarArray()">
+                Executar exemplos de Array
+            </button>
+
+            <div id="resultado-array" class="resultado"></div>
+         </section>
+
+         <!-- Tela objeto -->
+         <section id="objeto" class="tela">
+            <h2>Trabalhando com Objetos</h2>
+
+            <p>Objetos armazenam dados em pares chave e valor.</p>
+
+            <button onclick="executarObjeto()">
+                Executar exemplos de Objeto
+            </button>
+
+            <div id="resultado-objeto" class="resultado"></div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
